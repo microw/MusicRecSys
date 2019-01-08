@@ -2,15 +2,15 @@
 from django.http import JsonResponse
 
 from user.models import User,UserBrowse,UserTag,UserSim
+from playlist.models import PlayList
 import time
 
 def all(request):
     # 接口传入的tag参数
     tag = request.GET.get("tag")
-    print("Tag : %s" % tag)
     # 接口传入的page参数
     _page_id = int(request.GET.get("page"))
-    print("page_id: %s" % _page_id)
+    print("Tag : %s, page_id: %s" % (tag,_page_id))
     _list = list()
     # 全部用户
     if tag == "all":
@@ -25,8 +25,7 @@ def all(request):
     # 指定标签下的用户
     else:
         sLists = UserTag.objects.filter(tag=tag).values("user_id").order_by("user_id")
-        sIds = sLists[(_page_id - 1) * 30:_page_id * 30]
-        for sid in sIds:
+        for sid in sLists[(_page_id - 1) * 30:_page_id * 30]:
             one = User.objects.filter(u_id=sid["user_id"])
             if one.__len__() == 1:
                 one = one[0]
@@ -49,7 +48,7 @@ def all(request):
 # 获取所有用户标签
 def getAllUserTags():
     tags = set()
-    for one in UserTag.objects.all().values("tag").order_by("user_id"):
+    for one in UserTag.objects.all().values("tag").distinct().order_by("user_id"):
         tags.add(one["tag"])
     return list(tags)
 
@@ -70,12 +69,13 @@ def one(request):
                 "u_tags":one.u_tags,
                 "u_img_url": one.u_img_url,
                 "u_sign":one.u_sign,
-                "u_rec": getRecBasedOne(u_id)
+                "u_rec": getRecBasedOne(u_id),
+                "u_playlist":getUserCreatePL(u_id)
             }
         ]
     })
 
-# 获取单个歌手的推荐
+# 获取单个用户的推荐
 def getRecBasedOne(u_id):
     result = list()
     sim_users = UserSim.objects.filter(user_id=u_id).order_by("-sim").values("sim_user_id")[:10]
@@ -88,6 +88,24 @@ def getRecBasedOne(u_id):
             "cate":"5"
         })
     return result
+
+# 获取用户创建的歌单
+def getUserCreatePL(uid):
+    pls = PlayList.objects.filter(pl_creator__u_id=uid)
+    result = list()
+    for one in pls:
+        result.append(
+            {
+                "pl_id": one.pl_id,
+                "pl_name":one.pl_name,
+                "pl_creator": one.pl_creator.u_name,
+                "pl_create_time": one.pl_create_time,
+                "pl_img_url": one.pl_img_url,
+                "pl_desc":one.pl_desc
+            }
+        )
+    return result
+
 
 # 用户浏览信息进行记录
 """

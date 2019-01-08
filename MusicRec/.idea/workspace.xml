@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f60b3d6f-1821-44da-99e6-12eb7c2b5ada" name="Default Changelist" comment="" />
+    <list default="true" id="f60b3d6f-1821-44da-99e6-12eb7c2b5ada" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index/indexTag.py" beforeDir="false" afterPath="$PROJECT_DIR$/index/indexTag.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index/ranking.py" beforeDir="false" afterPath="$PROJECT_DIR$/index/ranking.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index/recRight.py" beforeDir="false" afterPath="$PROJECT_DIR$/index/recRight.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/index/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playlist/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/playlist/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sing/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/sing/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/song/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z-others/files/musicrec.sql" beforeDir="false" afterPath="$PROJECT_DIR$/z-others/files/musicrec.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z-others/rec/rec_playlist.py" beforeDir="false" afterPath="$PROJECT_DIR$/z-others/rec/rec_playlist.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z-others/tools/userSim.py" beforeDir="false" afterPath="$PROJECT_DIR$/z-others/tools/userSim.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,9 +27,12 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/MusicRec$singSim.coverage" NAME="singSim Coverage Results" MODIFIED="1546346787937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/z-others/tools" />
     <SUITE FILE_PATH="coverage/MusicRec$songSim.coverage" NAME="songSim Coverage Results" MODIFIED="1546350292041" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/z-others/tools" />
+    <SUITE FILE_PATH="coverage/MusicRec$rec_playlist.coverage" NAME="rec_playlist Coverage Results" MODIFIED="1546531910696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/z-others/rec" />
     <SUITE FILE_PATH="coverage/MusicRec$Tools.coverage" NAME="Tools Coverage Results" MODIFIED="1545471422064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/z-others/spider" />
     <SUITE FILE_PATH="coverage/MusicRec$test.coverage" NAME="test Coverage Results" MODIFIED="1545528699539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/z-others/tomysql" />
-    <SUITE FILE_PATH="coverage/MusicRec$GetPlayListMess.coverage" NAME="GetPlayListMess Coverage Results" MODIFIED="1544885524753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/z-others/spider" />
+    <SUITE FILE_PATH="coverage/MusicRec$rec_sing.coverage" NAME="rec_sing Coverage Results" MODIFIED="1546656398084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/z-others/rec" />
+    <SUITE FILE_PATH="coverage/MusicRec$GetPlayListMess.coverage" NAME="GetPlayListMess Coverage Results" MODIFIED="1546702198981" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/z-others/api" />
+    <SUITE FILE_PATH="coverage/MusicRec$rec_song.coverage" NAME="rec_song Coverage Results" MODIFIED="1546715675532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/z-others/rec" />
     <SUITE FILE_PATH="coverage/MusicRec$PlayList.coverage" NAME="PlayList Coverage Results" MODIFIED="1544644745301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/z-others/spider" />
     <SUITE FILE_PATH="coverage/MusicRec$userSim.coverage" NAME="userSim Coverage Results" MODIFIED="1546345443247" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/z-others/tools" />
     <SUITE FILE_PATH="coverage/MusicRec$ToMySQL.coverage" NAME="ToMySQL Coverage Results" MODIFIED="1546447119190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/z-others/tomysql" />
@@ -21,6 +40,7 @@
     <SUITE FILE_PATH="coverage/MusicRec$GetSingMess.coverage" NAME="GetSingMess Coverage Results" MODIFIED="1545843083623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/z-others/api" />
     <SUITE FILE_PATH="coverage/MusicRec$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1545846741137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/z-others/api" />
     <SUITE FILE_PATH="coverage/MusicRec$MakePlayListUrl__1_.coverage" NAME="MakePlayListUrl (1) Coverage Results" MODIFIED="1544718034392" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/z-others/spider" />
+    <SUITE FILE_PATH="coverage/MusicRec$rec_user.coverage" NAME="rec_user Coverage Results" MODIFIED="1546537466596" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/z-others/rec" />
     <SUITE FILE_PATH="coverage/MusicRec$GetSongsMess.coverage" NAME="GetSongsMess Coverage Results" MODIFIED="1545837377196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/z-others/api" />
   </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
@@ -30,11 +50,12 @@
     <session id="572966055">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="17" />
+          <entry key="project.closed" value="22" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.1" value="4" />
-          <entry key="project.open.time.32" value="1" />
+          <entry key="project.open.time.1" value="5" />
+          <entry key="project.open.time.32" value="2" />
           <entry key="project.open.time.33" value="1" />
+          <entry key="project.open.time.36" value="1" />
           <entry key="project.open.time.38" value="2" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.40" value="1" />
@@ -43,37 +64,39 @@
           <entry key="project.open.time.45" value="1" />
           <entry key="project.open.time.47" value="1" />
           <entry key="project.open.time.48" value="1" />
-          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.49" value="1" />
+          <entry key="project.open.time.5" value="2" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="18" />
+          <entry key="project.opened" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="csv" value="9" />
-          <entry key="json" value="5" />
-          <entry key="py" value="278" />
-          <entry key="txt" value="121" />
+          <entry key="json" value="7" />
+          <entry key="py" value="381" />
+          <entry key="txt" value="145" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JSON" value="5" />
-          <entry key="PLAIN_TEXT" value="130" />
-          <entry key="Python" value="278" />
+          <entry key="JSON" value="7" />
+          <entry key="PLAIN_TEXT" value="154" />
+          <entry key="Python" value="381" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Django Console" value="163" />
-          <entry key="py" value="32009" />
+          <entry key="Django Console" value="251" />
+          <entry key="dummy" value="2" />
+          <entry key="py" value="42764" />
           <entry key="txt" value="34" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="34" />
-          <entry key="Python" value="32172" />
+          <entry key="PLAIN_TEXT" value="36" />
+          <entry key="Python" value="43015" />
         </counts>
       </usages-collector>
     </session>
@@ -114,12 +137,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index/indexTag.py">
+        <entry file="file://$PROJECT_DIR$/index/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1496">
-              <caret line="4" column="58" selection-start-line="4" selection-start-column="58" selection-end-line="4" selection-end-column="58" />
+            <state relative-caret-position="132">
+              <caret line="120" column="29" selection-start-line="120" selection-start-column="29" selection-end-line="120" selection-end-column="29" />
               <folding>
-                <element signature="e#23#54#0" expanded="true" />
+                <element signature="e#23#59#0" expanded="true" />
+                <marker date="1546962888681" expanded="true" signature="2671:2672" ph="..." />
               </folding>
             </state>
           </provider>
@@ -145,6 +169,8 @@
       <find>2468081007</find>
       <find>playListTagMessToMySQL</find>
       <find>'</find>
+      <find>124482</find>
+      <find>getSingRecTags</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -153,12 +179,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/z-others/spider/MusicData/play_list_url.txt" />
-        <option value="$PROJECT_DIR$/MusicRec/__init__.py" />
-        <option value="$PROJECT_DIR$/index/models.py" />
-        <option value="$PROJECT_DIR$/index/admin.py" />
-        <option value="$PROJECT_DIR$/index/__init__.py" />
-        <option value="$PROJECT_DIR$/z-others/spider/GetSongsMess.py" />
         <option value="$PROJECT_DIR$/z-others/spider/GetPlayListMess.py" />
         <option value="$PROJECT_DIR$/z-others/spider/data/sing_mess/sings_mess_all.txt" />
         <option value="$PROJECT_DIR$/user/__init__.py" />
@@ -172,8 +192,6 @@
         <option value="$PROJECT_DIR$/z-others/tomysql/data/user_ids_1000.txt" />
         <option value="$PROJECT_DIR$/z-others/tomysql/test.py" />
         <option value="$PROJECT_DIR$/z-others/files/requirement.txt" />
-        <option value="$PROJECT_DIR$/z-others/api/GetSongsMess.py" />
-        <option value="$PROJECT_DIR$/z-others/api/GetSingMess.py" />
         <option value="$PROJECT_DIR$/z-others/api/test.py" />
         <option value="$PROJECT_DIR$/playlist/models.py" />
         <option value="$PROJECT_DIR$/playlist/admin.py" />
@@ -182,28 +200,36 @@
         <option value="$PROJECT_DIR$/sing/urls.py" />
         <option value="$PROJECT_DIR$/user/urls.py" />
         <option value="$PROJECT_DIR$/MusicRec/urls.py" />
-        <option value="$PROJECT_DIR$/index/recRight.py" />
         <option value="$PROJECT_DIR$/z-others/tomysql/data/pl_mess_all.txt" />
-        <option value="$PROJECT_DIR$/z-others/tools/userSim.py" />
-        <option value="$PROJECT_DIR$/user/models.py" />
-        <option value="$PROJECT_DIR$/user/admin.py" />
         <option value="$PROJECT_DIR$/song/models.py" />
         <option value="$PROJECT_DIR$/song/admin.py" />
         <option value="$PROJECT_DIR$/sing/models.py" />
         <option value="$PROJECT_DIR$/sing/admin.py" />
         <option value="$PROJECT_DIR$/z-others/tools/singSim.py" />
         <option value="$PROJECT_DIR$/z-others/tools/songSim.py" />
+        <option value="$PROJECT_DIR$/index/urls.py" />
+        <option value="$PROJECT_DIR$/MusicRec/settings.py" />
+        <option value="$PROJECT_DIR$/z-others/tomysql/ToMySQL.py" />
+        <option value="$PROJECT_DIR$/z-others/rec/playlist_rec.py" />
+        <option value="$PROJECT_DIR$/z-others/rec/data/user_playlist_prefer.txt" />
+        <option value="$PROJECT_DIR$/z-others/rec/rec_playlist.py" />
+        <option value="$PROJECT_DIR$/z-others/rec/rec_user.py" />
+        <option value="$PROJECT_DIR$/z-others/rec/rec_sing.py" />
+        <option value="$PROJECT_DIR$/user/models.py" />
+        <option value="$PROJECT_DIR$/user/admin.py" />
+        <option value="$PROJECT_DIR$/z-others/rec/rec_song.py" />
+        <option value="$PROJECT_DIR$/index/recRight.py" />
+        <option value="$PROJECT_DIR$/z-others/api/GetPlayListMess.py" />
+        <option value="$PROJECT_DIR$/z-others/api/GetSongsMess.py" />
+        <option value="$PROJECT_DIR$/z-others/api/GetSingMess.py" />
+        <option value="$PROJECT_DIR$/z-others/tools/userSim.py" />
+        <option value="$PROJECT_DIR$/index/indexTag.py" />
         <option value="$PROJECT_DIR$/playlist/views.py" />
         <option value="$PROJECT_DIR$/song/views.py" />
-        <option value="$PROJECT_DIR$/index/urls.py" />
         <option value="$PROJECT_DIR$/user/views.py" />
         <option value="$PROJECT_DIR$/sing/views.py" />
-        <option value="$PROJECT_DIR$/z-others/api/GetPlayListMess.py" />
-        <option value="$PROJECT_DIR$/MusicRec/settings.py" />
         <option value="$PROJECT_DIR$/index/ranking.py" />
         <option value="$PROJECT_DIR$/index/views.py" />
-        <option value="$PROJECT_DIR$/z-others/tomysql/ToMySQL.py" />
-        <option value="$PROJECT_DIR$/index/indexTag.py" />
       </list>
     </option>
   </component>
@@ -214,8 +240,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="683" />
-    <option name="width" value="683" />
+    <option name="x" value="476" />
+    <option name="y" value="6" />
+    <option name="width" value="1364" />
     <option name="height" value="728" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -224,6 +251,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -231,22 +259,48 @@
               <item name="MusicRec" type="b2602c69:ProjectViewProjectNode" />
               <item name="MusicRec" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="MusicRec" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MusicRec" type="462c0819:PsiDirectoryNode" />
+              <item name="index" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MusicRec" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MusicRec" type="462c0819:PsiDirectoryNode" />
+              <item name="sing" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MusicRec" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MusicRec" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MusicRec" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MusicRec" type="462c0819:PsiDirectoryNode" />
+              <item name="z-others" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MusicRec" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MusicRec" type="462c0819:PsiDirectoryNode" />
+              <item name="z-others" type="462c0819:PsiDirectoryNode" />
+              <item name="tomysql" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/Program Files/Python3/python.exe" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/bookRecommend--2/bookRecommend--2" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\github\MusicRecSys\MusicRec\z-others\api\data\sing_mess" />
       <recent name="C:\Users\gaoyangtuan\Desktop\MusicRecSys-master\MusicRec\z-others\tomysql\data-1000" />
       <recent name="E:\github\MusicRecSys\MusicRec\z-others\spider\data" />
       <recent name="E:\github\MusicRecSys\MusicRec\z-others\spider" />
@@ -271,8 +325,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ToMySQL">
-    <configuration name="ToMySQL" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.rec_song">
+    <configuration name="GetPlayListMess" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MusicRec" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -280,12 +334,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/z-others/tomysql" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/z-others/api" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/z-others/tomysql/ToMySQL.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/z-others/api/GetPlayListMess.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -294,7 +348,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="singSim" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="rec_playlist" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MusicRec" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -302,12 +356,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/z-others/tools" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/z-others/rec" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/z-others/tools/singSim.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/z-others/rec/rec_playlist.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -316,7 +370,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="songSim" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="rec_sing" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MusicRec" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -324,12 +378,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/z-others/tools" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/z-others/rec" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/z-others/tools/songSim.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/z-others/rec/rec_sing.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -338,7 +392,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="userSim" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="rec_song" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MusicRec" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -346,12 +400,34 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/z-others/tools" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/z-others/rec" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/z-others/tools/userSim.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/z-others/rec/rec_song.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="rec_user" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MusicRec" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/z-others/rec" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/z-others/rec/rec_user.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -385,17 +461,19 @@
     </configuration>
     <list>
       <item itemvalue="Django server.MusicRec" />
-      <item itemvalue="Python.ToMySQL" />
-      <item itemvalue="Python.songSim" />
-      <item itemvalue="Python.singSim" />
-      <item itemvalue="Python.userSim" />
+      <item itemvalue="Python.rec_playlist" />
+      <item itemvalue="Python.rec_user" />
+      <item itemvalue="Python.rec_sing" />
+      <item itemvalue="Python.rec_song" />
+      <item itemvalue="Python.GetPlayListMess" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.ToMySQL" />
-        <item itemvalue="Python.songSim" />
-        <item itemvalue="Python.singSim" />
-        <item itemvalue="Python.userSim" />
+        <item itemvalue="Python.rec_song" />
+        <item itemvalue="Python.GetPlayListMess" />
+        <item itemvalue="Python.rec_sing" />
+        <item itemvalue="Python.rec_user" />
+        <item itemvalue="Python.rec_playlist" />
       </list>
     </recent_temporary>
   </component>
@@ -423,8 +501,32 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20877458" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.22087745" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49924356" weight="0.32840723" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.39901477" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="5" weight="0.32840723" />
+      <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32840723" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5030257" side_tool="true" weight="0.3464696" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49848714" visible="true" weight="0.28407225" />
+      <window_info anchor="bottom" id="Python Console" order="11" sideWeight="0.49924356" weight="0.32676518" />
+      <window_info anchor="bottom" id="Run" order="12" sideWeight="0.4969743" weight="0.31198686" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="SciView" order="4" weight="0.1096823" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21482602" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -437,37 +539,14 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32840723" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50226927" side_tool="true" weight="0.40722495" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.2955665" />
-      <window_info anchor="bottom" id="Python Console" order="11" weight="0.31691298" />
-      <window_info anchor="bottom" id="Run" order="12" sideWeight="0.4977307" weight="0.3366174" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.29508197" />
+      <window_info anchor="bottom" id="Python Console" order="11" weight="0.21018063" />
+      <window_info anchor="bottom" id="Run" order="12" sideWeight="0.4977307" visible="true" weight="0.24630542" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" weight="0.1096823" />
-      <window_info anchor="right" id="Database" order="4" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2247854" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32840723" />
-      <window_info anchor="bottom" id="Debug" order="2" weight="0.39901477" />
-      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="5" weight="0.32840723" />
-      <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.38235295" />
-      <window_info anchor="bottom" id="Python Console" order="11" weight="0.3280543" />
-      <window_info anchor="bottom" id="Run" order="12" visible="true" weight="0.31108597" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="SciView" order="4" weight="0.1096823" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -477,134 +556,8 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/z-others/api/newData/pl_mess_all.txt" />
-    <entry file="file://$PROJECT_DIR$/z-others/tomysql/data/singIds.txt" />
-    <entry file="file://$PROJECT_DIR$/z-others/api/newData/sing_mess_all.txt" />
-    <entry file="file://$PROJECT_DIR$/z-others/spider/GetSongsMess.py" />
-    <entry file="file://$PROJECT_DIR$/user/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/z-others/api/newData/have_not_sing_mess.txt" />
-    <entry file="file://$PROJECT_DIR$/user/migrations/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://D:/Program Files/Python3/Lib/site-packages/pymysql/connections.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="682" selection-start-line="682" selection-end-line="682" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/z-others/api/GetSingMess.py" />
-    <entry file="file://$PROJECT_DIR$/z-others/api/newData/have_not_song_mess.txt" />
-    <entry file="file://$PROJECT_DIR$/z-others/api/GetSongsMess.py" />
-    <entry file="file://$PROJECT_DIR$/song/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/playlist/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sing/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MusicRec/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/z-others/tomysql/data/pl_sing_id.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="150" column="9" selection-start-line="150" selection-end-line="150" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/z-others/tomysql/data/user_mess_all.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="134" column="9" selection-start-line="134" selection-end-line="134" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/playlist/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="26" selection-start-line="26" selection-end-line="36" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Program Files/Python3/Lib/json/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-992">
-          <caret line="119" column="4" selection-start-line="119" selection-start-column="4" selection-end-line="119" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Program Files/Python3/Lib/site-packages/django/db/models/query.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="302" selection-start-line="302" selection-end-line="302" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/z-others/tomysql/data/song_mess_all.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="93" selection-start-column="93" selection-end-column="93" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/z-others/tomysql/data/song_tag.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/z-others/tools/data/song_tag.json" />
-    <entry file="file://$PROJECT_DIR$/z-others/tomysql/data/sing_song.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/playlist/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="32" column="6" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
-          <folding>
-            <element signature="e#25#53#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/z-others/tools/data/user_sim.json">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/song/admin.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -620,31 +573,181 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/z-others/tools/userSim.py">
+    <entry file="file://$PROJECT_DIR$/index/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="54" selection-start-line="48" selection-start-column="8" selection-end-line="54" />
+        <state relative-caret-position="292">
+          <caret line="24" column="33" lean-forward="true" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/z-others/tools/singSim.py">
+    <entry file="file://$PROJECT_DIR$/z-others/spider/GetPlayListMess.py" />
+    <entry file="file://$PROJECT_DIR$/MusicRec/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="51" column="22" lean-forward="true" selection-start-line="45" selection-end-line="51" selection-end-column="22" />
+        <state relative-caret-position="154">
+          <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z-others/tomysql/data/pl_mess_all.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="754" column="287" selection-start-line="754" selection-start-column="285" selection-end-line="754" selection-end-column="287" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z-others/rec/data/user_playlist_prefer.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1750028">
+          <caret line="99" column="21" lean-forward="true" selection-start-line="99" selection-start-column="21" selection-end-line="99" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z-others/tomysql/data/song_mess_all.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="70" selection-start-line="7" selection-start-column="64" selection-end-line="7" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z-others/rec/data/sing_sim_sing.json" />
+    <entry file="file://$PROJECT_DIR$/z-others/rec/data/user_singer_prefer.json">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state>
+          <caret column="20" selection-start-column="13" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z-others/rec/data/user_singer_prefer.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1761927" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/playlist/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="26" selection-start-line="26" selection-end-line="36" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z-others/rec/data/user_user_prefer.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="112" selection-start-line="112" selection-end-line="113" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z-others/api/data/playlist_url/playlist_id_name_all.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z-others/api/data/user_mess/user_mess_all.txt">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="-107473" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index/recRight.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="28" selection-end-column="51" />
+          <folding>
+            <element signature="e#23#59#0" expanded="true" />
+            <marker date="1546663160443" expanded="true" signature="401:402" ph="..." />
+            <marker date="1546663160443" expanded="true" signature="1657:1658" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z-others/api/MakePlayListUrl.py" />
+    <entry file="file://$PROJECT_DIR$/z-others/api/data/song_mess/songs_mess_all.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="92" lean-forward="true" selection-start-column="92" selection-end-column="223" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z-others/api/data/error_playlist_ids.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z-others/api/GetPlayListMess.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="102" column="40" selection-start-line="102" selection-start-column="40" selection-end-line="102" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z-others/api/data/song_mess/error_ids_1.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z-others/api/GetSongsMess.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1276">
+          <caret line="41" column="46" selection-start-line="41" selection-start-column="46" selection-end-line="41" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z-others/api/data/sing_mess/have_not_sing_mess.txt" />
+    <entry file="file://$PROJECT_DIR$/z-others/api/data/sing_mess/sings_mess_error_1.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z-others/api/GetSingMess.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="28" column="45" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z-others/api/test.py" />
+    <entry file="file://$PROJECT_DIR$/MusicRec/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
+          <caret line="27" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/playlist/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/playlist/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="29" column="36" lean-forward="true" selection-start-line="8" selection-end-line="29" selection-end-column="36" />
+          <folding>
+            <element signature="e#25#53#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/z-others/tools/songSim.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
+        <state relative-caret-position="652">
           <caret line="57" column="20" selection-start-line="57" selection-start-column="20" selection-end-line="57" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z-others/api/data/playlist_mess/pl_mess_all.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z-others/rec/rec_user.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1518">
+          <caret line="69" column="16" selection-start-line="34" selection-start-column="4" selection-end-line="69" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/song/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="44" column="15" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="15" />
+        <state relative-caret-position="198">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="16" />
           <folding>
             <marker date="1546346196113" expanded="true" signature="1040:1041" ph="..." />
             <marker date="1546346196113" expanded="true" signature="1265:1274" ph="..." />
@@ -653,149 +756,145 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user/models.py">
+    <entry file="file://$PROJECT_DIR$/z-others/tools/singSim.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-167">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="43" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z-others/tools/userSim.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-77">
+          <caret line="32" column="33" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z-others/rec/data/user_song_prefer.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="36" lean-forward="true" selection-end-line="2" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z-others/rec/rec_song.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="115" column="10" selection-start-line="115" selection-start-column="10" selection-end-line="115" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z-others/rec/rec_playlist.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
-          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z-others/rec/rec_sing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1804">
+          <caret line="126" column="4" selection-start-line="126" selection-start-column="4" selection-end-line="126" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z-others/tomysql/ToMySQL.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2557">
+          <caret line="242" column="20" lean-forward="true" selection-start-line="216" selection-start-column="1" selection-end-line="242" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="48" column="13" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="13" />
           <folding>
-            <marker date="1546346013654" expanded="true" signature="1453:1746" ph="..." />
-            <marker date="1546346013654" expanded="true" signature="2405:2410" ph="..." />
+            <element signature="e#25#53#0" expanded="true" />
+            <marker date="1546660532395" expanded="true" signature="2907:2908" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="24" column="33" lean-forward="true" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="100" column="31" lean-forward="true" selection-start-line="100" selection-start-column="31" selection-end-line="100" selection-end-column="31" />
-          <folding>
-            <element signature="e#24#60#0" expanded="true" />
-            <marker date="1546355742581" expanded="true" signature="1419:1420" ph="..." />
-            <marker date="1546355742581" expanded="true" signature="1578:1583" ph="..." />
-            <marker date="1546355742581" expanded="true" signature="3487:3492" ph="..." />
-            <marker date="1546355742581" expanded="true" signature="3581:3586" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index/recRight.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-          <folding>
-            <element signature="e#23#59#0" expanded="true" />
-            <marker date="1545928778460" expanded="true" signature="173:174" ph="..." />
-            <marker date="1545928778460" expanded="true" signature="578:579" ph="..." />
-            <marker date="1545928778460" expanded="true" signature="926:927" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/playlist/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="26" column="40" lean-forward="true" selection-start-line="23" selection-start-column="12" selection-end-line="26" selection-end-column="40" />
-          <folding>
-            <element signature="e#23#59#0" expanded="true" />
-            <marker date="1546351928781" expanded="true" signature="3283:3508" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/song/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="38" column="58" lean-forward="true" selection-start-line="36" selection-start-column="16" selection-end-line="38" selection-end-column="58" />
-          <folding>
-            <element signature="e#23#59#0" expanded="true" />
-            <marker date="1546351944859" expanded="true" signature="1570:1712" ph="..." />
-            <marker date="1546351944859" expanded="true" signature="1729:1730" ph="..." />
-            <marker date="1546351944859" expanded="true" signature="2835:2839" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sing/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="35" column="40" lean-forward="true" selection-start-line="33" selection-start-column="16" selection-end-line="35" selection-end-column="40" />
-          <folding>
-            <element signature="e#23#59#0" expanded="true" />
-            <marker date="1546355745405" expanded="true" signature="1467:1609" ph="..." />
-            <marker date="1546355745405" expanded="true" signature="2439:2440" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/z-others/spider/GetPlayListMess.py" />
-    <entry file="file://$PROJECT_DIR$/z-others/api/GetPlayListMess.py" />
-    <entry file="file://$PROJECT_DIR$/z-others/api/test.py" />
-    <entry file="file://$PROJECT_DIR$/MusicRec/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sing/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="19" column="11" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="11" />
+        <state relative-caret-position="88">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
           <folding>
             <marker date="1546346501741" expanded="true" signature="1086:1091" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/z-others/tomysql/data/pl_mess_all.txt">
+    <entry file="file://$PROJECT_DIR$/song/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-175">
-          <caret line="754" column="287" selection-start-line="754" selection-start-column="285" selection-end-line="754" selection-end-column="287" />
+        <state relative-caret-position="330">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="e#23#59#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/z-others/tomysql/ToMySQL.py">
+    <entry file="file://$PROJECT_DIR$/user/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="376" column="37" lean-forward="true" selection-start-line="376" selection-start-column="37" selection-end-line="376" selection-end-column="37" />
+        <state relative-caret-position="264">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="e#24#60#0" expanded="true" />
+            <marker date="1546793623087" expanded="true" signature="2824:3268" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sing/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="e#23#59#0" expanded="true" />
+            <marker date="1546793623149" expanded="true" signature="3019:3020" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index/ranking.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="43" column="34" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
+        <state relative-caret-position="110">
+          <caret line="21" column="80" lean-forward="true" selection-start-line="21" selection-start-column="80" selection-end-line="21" selection-end-column="80" />
           <folding>
             <element signature="e#25#61#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index/views.py">
+    <entry file="file://$PROJECT_DIR$/playlist/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="743">
-          <caret line="84" column="21" selection-start-line="84" selection-start-column="21" selection-end-line="84" selection-end-column="21" />
+        <state relative-caret-position="-374">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="e#23#59#0" expanded="true" />
-            <marker date="1546445307530" expanded="true" signature="2719:2720" ph="..." />
-            <marker date="1546445307530" expanded="true" signature="3723:3724" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index/indexTag.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1496">
-          <caret line="4" column="58" selection-start-line="4" selection-start-column="58" selection-end-line="4" selection-end-column="58" />
+        <state relative-caret-position="-2156">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
           <folding>
             <element signature="e#23#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="120" column="29" selection-start-line="120" selection-start-column="29" selection-end-line="120" selection-end-column="29" />
+          <folding>
+            <element signature="e#23#59#0" expanded="true" />
+            <marker date="1546962888681" expanded="true" signature="2671:2672" ph="..." />
           </folding>
         </state>
       </provider>

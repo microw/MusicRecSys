@@ -41,7 +41,7 @@ class UserSim:
                 i += 1
                 print(str(i) + "\t" + use1)
             json.dump(sim, open("./data/user_sim.json","w",encoding="utf-8"))
-        print("歌曲相似度计算完毕！")
+        print("用户相似度计算完毕！")
         return sim
 
     # 将计算出的相似度转成导入mysql的格式

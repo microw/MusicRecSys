@@ -5,14 +5,16 @@ from song.models import Song
 from sing.models import Sing
 from user.views import wirteBrowse,getLocalTime
 
+from django.db.models import Q
+
+
 # 获取所有歌单
 def all(request):
     # 接口传入的tag参数
     tag = request.GET.get("tag")
-    print("Tag : %s" % tag)
     # 接口传入的page参数
     _page_id = int(request.GET.get("page"))
-    print("page_id: %s" % _page_id)
+    print("Tag : %s, page_id: %s" % (tag,_page_id))
     if tag == "all":
         pLists = PlayList.objects.all().order_by("-pl_create_time")
     else:
@@ -99,9 +101,17 @@ def getIncludeSong(pl_id):
 def getRecBasedOne(pl_id):
     pl_tags = PlayList.objects.filter(pl_id= pl_id).values("pl_tags")[0]["pl_tags"]
     pl_tags_list = pl_tags.replace(" ","").split(",")
-    results = PlayList.objects.filter(pl_tags=pl_tags)
-    if results.__len__() == 0:
-        results = PlayList.objects.filter(pl_tags__contains=pl_tags_list[0])
+    print(pl_tags_list)
+    results = list(PlayList.objects.filter(pl_tags=pl_tags).filter(~Q(pl_id=pl_id)))
+    if results.__len__() < 10:
+        for tag in pl_tags_list:
+            for pl in PlayList.objects.filter(pl_tags__contains=tag):
+                results.append(pl)
+                if results.__len__() >= 10:
+                    break
+            if results.__len__() >= 10:
+                break
+    # print(results)
     # 拼接返回结果
     rec_pl_list = list()
     for one in results:

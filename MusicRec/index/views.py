@@ -1,7 +1,6 @@
 # -*- coding:utf-8 -*-
 from django.http import JsonResponse
 from django.views.decorators.csrf import csrf_exempt
-import random
 
 from index.models import Cate
 from user.models import User,UserBrowse
@@ -22,9 +21,9 @@ from index import recRight as rec_right
 def login(request):
     if request.method == "GET":
         # 返回选择的用户、歌手、歌曲
-        users = random.sample(list(User.objects.all().values("u_id","u_name")),50)
-        songs = random.sample(list(Song.objects.all().values("song_id","song_name")),30)
-        sings = random.sample(list(Sing.objects.all().values("sing_id","sing_name")), 30)
+        users = User.objects.order_by("?").values("u_id","u_name")[:30]
+        songs = Song.objects.order_by("?").values("song_id","song_name")[:30]
+        sings = Sing.objects.order_by("?").values("sing_id","sing_name")[:20]
         return JsonResponse({
             "code":1,
             "data":{
@@ -86,7 +85,7 @@ def home(request):
         return JsonResponse(result)
 
     elif _cate == "6":  # 排行榜
-        result = rankResult()
+        result = rankResult(request)
         return JsonResponse(result)
 
     elif _cate == "7":  # 我的足迹
@@ -113,15 +112,15 @@ def home(request):
 def myBrowse(request):
     # 接口传入的page参数
     _page_id = int(request.GET.get("page"))
-
+    _uname = request.session.get("username")
     result = dict()
     result["code"] = 1
     result["data"] = dict()
     _list = list()
-    browses = UserBrowse.objects.all().order_by("user_click_time")[(_page_id -1 ) * 20: _page_id * 20]
+    browses = UserBrowse.objects.filter(user_name=_uname).order_by("user_click_time")
     total = browses.__len__()
     value = ""
-    for one in browses:
+    for one in browses[(_page_id -1 ) * 20: _page_id * 20]:
         if one.click_cate == "2":
             value = PlayList.objects.filter(pl_id=one.click_id)[0].pl_name
         elif one.click_cate == "3":
@@ -150,19 +149,19 @@ def rec(request):
         return JsonResponse({"code": 0, "data": {}})
 
     if _cate == "2":  # 歌单
-        result = rec_right.rec_right_playlist()
+        result = rec_right.rec_right_playlist(request)
         return JsonResponse( result )
 
     elif _cate == "3": # 歌曲
-        result = rec_right.rec_right_song()
+        result = rec_right.rec_right_song(request)
         return JsonResponse( result )
 
     elif _cate == "4": # 歌手
-        result = rec_right.rec_right_sing()
+        result = rec_right.rec_right_sing(request)
         return JsonResponse(result)
 
     elif _cate == "5": # 用户
-        result = rec_right.rec_right_user()
+        result = rec_right.rec_right_user(request)
         return JsonResponse(result)
 
     else:  # 其他
