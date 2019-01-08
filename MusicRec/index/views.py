@@ -120,7 +120,7 @@ def myBrowse(request):
     browses = UserBrowse.objects.filter(user_name=_uname).order_by("user_click_time")
     total = browses.__len__()
     value = ""
-    for one in browses[(_page_id -1 ) * 20: _page_id * 20]:
+    for one in browses[(_page_id -1 ) * 30: _page_id * 30]:
         if one.click_cate == "2":
             value = PlayList.objects.filter(pl_id=one.click_id)[0].pl_name
         elif one.click_cate == "3":

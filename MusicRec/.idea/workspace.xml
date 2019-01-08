@@ -2,20 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f60b3d6f-1821-44da-99e6-12eb7c2b5ada" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index/indexTag.py" beforeDir="false" afterPath="$PROJECT_DIR$/index/indexTag.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index/ranking.py" beforeDir="false" afterPath="$PROJECT_DIR$/index/ranking.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index/recRight.py" beforeDir="false" afterPath="$PROJECT_DIR$/index/recRight.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MusicRec-Vue/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../MusicRec-Vue/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MusicRec-Vue/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../MusicRec-Vue/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/index/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/playlist/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/playlist/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sing/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/sing/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/song/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/song/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/z-others/files/musicrec.sql" beforeDir="false" afterPath="$PROJECT_DIR$/z-others/files/musicrec.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/z-others/rec/rec_playlist.py" beforeDir="false" afterPath="$PROJECT_DIR$/z-others/rec/rec_playlist.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/z-others/tools/userSim.py" beforeDir="false" afterPath="$PROJECT_DIR$/z-others/tools/userSim.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,9 +39,9 @@
     <session id="572966055">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="22" />
+          <entry key="project.closed" value="23" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.1" value="5" />
+          <entry key="project.open.time.1" value="6" />
           <entry key="project.open.time.32" value="2" />
           <entry key="project.open.time.33" value="1" />
           <entry key="project.open.time.36" value="1" />
@@ -67,14 +56,14 @@
           <entry key="project.open.time.49" value="1" />
           <entry key="project.open.time.5" value="2" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="23" />
+          <entry key="project.opened" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="csv" value="9" />
           <entry key="json" value="7" />
-          <entry key="py" value="381" />
+          <entry key="py" value="385" />
           <entry key="txt" value="145" />
         </counts>
       </usages-collector>
@@ -82,7 +71,7 @@
         <counts>
           <entry key="JSON" value="7" />
           <entry key="PLAIN_TEXT" value="154" />
-          <entry key="Python" value="381" />
+          <entry key="Python" value="385" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -136,14 +125,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index/views.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/playlist/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="120" column="29" selection-start-line="120" selection-start-column="29" selection-end-line="120" selection-end-column="29" />
+            <state relative-caret-position="-1281">
+              <caret line="23" column="37" lean-forward="true" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="38" />
               <folding>
                 <element signature="e#23#59#0" expanded="true" />
-                <marker date="1546962888681" expanded="true" signature="2671:2672" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/song/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="770">
+              <caret line="35" column="26" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="26" />
+              <folding>
+                <element signature="e#23#59#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/user/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="17" column="16" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="16" />
+              <folding>
+                <element signature="e#24#60#0" expanded="true" />
+                <marker date="1546793623087" expanded="true" signature="2824:3268" ph="..." />
               </folding>
             </state>
           </provider>
@@ -251,23 +264,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="MusicRec" type="b2602c69:ProjectViewProjectNode" />
               <item name="MusicRec" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MusicRec" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MusicRec" type="462c0819:PsiDirectoryNode" />
-              <item name="index" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MusicRec" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MusicRec" type="462c0819:PsiDirectoryNode" />
-              <item name="sing" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MusicRec" type="b2602c69:ProjectViewProjectNode" />
@@ -289,6 +291,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -503,7 +506,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.22087745" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22087745" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -516,7 +519,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32840723" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5030257" side_tool="true" weight="0.3464696" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49848714" visible="true" weight="0.28407225" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49848714" weight="0.28407225" />
       <window_info anchor="bottom" id="Python Console" order="11" sideWeight="0.49924356" weight="0.32676518" />
       <window_info anchor="bottom" id="Run" order="12" sideWeight="0.4969743" weight="0.31198686" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -826,54 +829,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/song/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-          <folding>
-            <element signature="e#23#59#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
-          <folding>
-            <element signature="e#24#60#0" expanded="true" />
-            <marker date="1546793623087" expanded="true" signature="2824:3268" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sing/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <element signature="e#23#59#0" expanded="true" />
-            <marker date="1546793623149" expanded="true" signature="3019:3020" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index/ranking.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
           <caret line="21" column="80" lean-forward="true" selection-start-line="21" selection-start-column="80" selection-end-line="21" selection-end-column="80" />
           <folding>
             <element signature="e#25#61#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/playlist/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-374">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#23#59#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -890,11 +851,53 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="120" column="29" selection-start-line="120" selection-start-column="29" selection-end-line="120" selection-end-column="29" />
+        <state relative-caret-position="149">
+          <caret line="122" column="56" selection-start-line="122" selection-start-column="56" selection-end-line="122" selection-end-column="56" />
           <folding>
             <element signature="e#23#59#0" expanded="true" />
-            <marker date="1546962888681" expanded="true" signature="2671:2672" ph="..." />
+            <marker date="1546965158343" expanded="true" signature="2671:2672" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sing/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-973">
+          <caret line="33" column="26" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="26" />
+          <folding>
+            <element signature="e#23#59#0" expanded="true" />
+            <marker date="1546793623149" expanded="true" signature="3019:3020" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/playlist/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1281">
+          <caret line="23" column="37" lean-forward="true" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="38" />
+          <folding>
+            <element signature="e#23#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/song/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="770">
+          <caret line="35" column="26" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="26" />
+          <folding>
+            <element signature="e#23#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="17" column="16" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="16" />
+          <folding>
+            <element signature="e#24#60#0" expanded="true" />
+            <marker date="1546793623087" expanded="true" signature="2824:3268" ph="..." />
           </folding>
         </state>
       </provider>
