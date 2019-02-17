@@ -13,7 +13,7 @@
 
 ## 后端依赖
 - Python版本为3.6
-- Python包和对弈的版本在NewsRecSys/NewsRec/z-others/files/requirement.txt文件中
+- Python包和对应的版本在MusicRecSys/MusicRec/z-others/files/requirement.txt文件中
 - 安装依赖为 pip install -r requirement.txt
 
 ## 前端说明
