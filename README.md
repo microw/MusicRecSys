@@ -38,7 +38,7 @@
     - 提交代码需要将gitattributes文件提交至仓库. 它保存了文件的追踪记录
     - 提交后运行git lfs ls-files 可以显示当前跟踪的文件列表
     - 将代码 push 到远程仓库后（git lfs push），LFS 跟踪的文件会以『Git LFS』的形式显示:
-clone 时 使用'git clone' 或 git lfs clone均可
+	- clone 时 使用'git clone' 或 git lfs clone均可
 
 ## About Me
 ID：Thinkgamer
