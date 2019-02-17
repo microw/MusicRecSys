@@ -24,7 +24,7 @@
         </div>
       </div>
       <div class="footCopy">
-        <a href="https://github.com/Thinkgamer/NewsRecSys" target="_blank">©CopyRight thinkgamer</a>
+        <a href="https://github.com/Thinkgamer/MusicRecSys" target="_blank">©CopyRight thinkgamer</a>
         <span>本项目仅供演示，不做任何商业用途</span>
       </div>
     </div>

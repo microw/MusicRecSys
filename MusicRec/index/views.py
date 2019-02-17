@@ -79,34 +79,21 @@ def home(request):
     _cate = request.GET.get("cateid")
     if "username" not in request.session.keys():  # 如果用户未登陆
         return JsonResponse({"code":0, "data":{}})
-
     if _cate == "1":    # 为你推荐 返回歌单、歌手、歌曲的tags
         result = GetRecTags(request,request.GET.get("base_click"))
         return JsonResponse(result)
-
     elif _cate == "6":  # 排行榜
-        result = rankResult(request)
-        return JsonResponse(result)
-
+        return JsonResponse( rankResult(request) )
     elif _cate == "7":  # 我的足迹
-        result = myBrowse(request)
-        return JsonResponse(result)
-
+        return JsonResponse( myBrowse(request) )
     elif _cate == "2":  # 歌单
-        result = allPlayList(request)
-        return JsonResponse(result)
-
+        return JsonResponse( allPlayList(request) )
     elif _cate == "3":   # 歌曲
-        result = allSongs(request)
-        return JsonResponse(result)
-
+        return JsonResponse( allSongs(request) )
     elif _cate == "4":   # 歌手
-        result = allSings(request)
-        return JsonResponse(result)
-
+        return JsonResponse( allSings(request) )
     elif _cate == "5":   # 用户
-        result = allUsers(request)
-        return JsonResponse(result)
+        return JsonResponse( allUsers(request) )
 
 # 我的足迹
 def myBrowse(request):

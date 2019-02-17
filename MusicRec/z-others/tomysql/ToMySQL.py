@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-    Desc: 把数据写入数据库
+    Author: Thinkgamer
+    Desc:
+        代码12-3  把数据写入数据库
 """
 import os,django
 os.environ["DJANGO_SETTINGS_MODULE"]="MusicRec.settings"
@@ -309,7 +311,7 @@ class ToMySQL:
             json.dump(song_playlist_tag_dict,open("./data/song_tag.json","w",encoding="utf-8"))
         print(song_playlist_tag_dict)
 
-        # 将歌曲 -> 标签信息写入数据库,直接写入数据库数据太多，写入文件，导入
+        # 将歌曲 -> 标签信息写入数据库,直接写入数据库数据太多，写入文件，利用工具导入
         # for song in song_playlist_tag_dict.keys():
         #     print(song)
         #     for tag in song_playlist_tag_dict[song].split(","):

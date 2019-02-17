@@ -1,5 +1,9 @@
 # -*- coding:utf-8 -*-
-
+"""
+    Author: Thinkgamer
+    Desc:
+        计算歌手相似度
+"""
 import os
 import json
 

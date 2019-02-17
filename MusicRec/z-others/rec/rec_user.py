@@ -2,8 +2,8 @@
 
 """
     Author: Thinkgamer
-    Time: 2019-01
-    Desc: 基于用户的协同过滤算法 计算用户相似度
+    Desc:
+        基于用户的协同过滤算法 计算用户相似度
 """
 import math
 

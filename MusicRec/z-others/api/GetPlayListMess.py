@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-    Desc: 获取提供的1066个歌单的信息
+    Author: Thinkgamer
+    Desc:
+        获取提供的1066个歌单的信息
 """
 import requests
 import traceback

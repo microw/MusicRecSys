@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-    Desc: 获取每首歌的信息
+    Author: Thinkgamer
+    Desc:
+        获取每首歌的信息
     songs: https://api.imjad.cn/cloudmusic/?type=detail&id=1330960061
             id,name,歌手信息[ar]，专辑id[al]，出版时间[publishTime]
            https://api.imjad.cn/cloudmusic/?type=comments&id=1330960061

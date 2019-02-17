@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 """
     Author: Thinkgamer
-    Time: 2019-01
-    Desc: 基于用户的协同过滤推荐算法 ，给用户推荐歌曲
+    Desc:
+        代码12-2 基于用户的协同过滤推荐算法 ，给用户推荐歌曲
     Step:
         1、得到用户和歌曲的对应关系
         2、计算用户与用户相似度
@@ -53,12 +53,8 @@ class RecSong:
         print("用户和歌曲对应信息统计完毕 ！")
         return user_song_dict, user_list
 
-    # 计算用户之间的相似度
+    # 计算用户之间的相似度，采用惩罚热门商品和优化算法复杂度的算法
     def UserSimilarityBest(self):
-        """
-        计算用户之间的相似度，采用惩罚热门商品和优化算法复杂度的算法
-        :return: dict
-        """
         # 得到每个item被哪些user评价过
         tags_users = dict()
         for user_id, tags in self.user_song_dict.items():

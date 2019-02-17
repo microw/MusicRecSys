@@ -1,4 +1,9 @@
 # -*- coding:utf-8 -*-
+"""
+    Author: Thinkgamer
+    Desc:
+        计算歌曲相似度
+"""
 import os,django
 os.environ['DJANGO_SETTINGS_MODULE'] = 'MusicRec.settings'
 django.setup()

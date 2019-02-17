@@ -1,4 +1,9 @@
 # -*- coding:utf-8 -*-
+"""
+    Author: Thinkgamer
+    Desc:
+        代码12-1 计算用户相似度
+"""
 import os,django
 os.environ['DJANGO_SETTINGS_MODULE'] = 'MusicRec.settings'
 django.setup()
@@ -19,6 +24,8 @@ class UserSim:
             userTagsDict[one.user_id].add(one.tag)
         return userTagsDict
 
+    # 计算用户相似度，由于全量用户存储数据量大
+    # 且无用所以这里只存储了每个用户的相近20个用户，并且要求相似度大于0.8
     def getUserSim(self):
         sim = dict()
         if os.path.exists("./data/user_sim.json"):
